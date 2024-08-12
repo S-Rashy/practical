@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(rgba(190, 17, 5, 0.6), rgba(237, 18, 3, 0.6)), url(./img/bg-intro-desktop.png);
+}
+.main{
+    display: flex;
+    padding: 40px 110px;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    width: 390px;
+    color: white;
+    /* border: 1px solid blue; */
+    line-height: 25px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+.left p{
+    font-size: 14px;
+    font-weight: 600;
+}
+h1{
+    line-height: 40px;
+    font-size: 40px;
+}
+.top{
+    border: 1px solid purple;
+    height: 50px;
+    background-color: rgb(93,84,163);
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+.top p{
+    color: white;
+    font-size: 14px;
+}
+.form{
+    background-color: white;
+    border: 1px solid;
+    margin-top: 17px;
+    height: 320px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 340px;
+    border: 0ch;
+    box-shadow: 1px 2px ;
+}
+input{
+    width: 335px;
+    height: 40px;
+    margin: 8px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(148,147,152);
+    padding-left: 10px;
+}
+input:nth-child(1){
+    border: 1px solid rgb(93,84,163)
+}
+input:focus{
+    border: 2px solid rgb(93,84,163);
+}
+button{
+    width: 335px;
+    height: 40px;
+    margin: 8px auto;
+    background-color: rgb(55,204,138);
+    color: white;
+    border-radius: 5px;
+    border: 0ch;
+    font-size: 12px;
+    font-weight: 550;
+}
+.form p{
+    font-size: 11px;
+    color: rgb(131, 131, 132);
+}
+::placeholder{
+    color: rgb(148,147,152);
+    font-weight: 540;
+}
+
+a{
+    color: rgb(238,143,148);
+    text-decoration: none;
+    font-weight: 600;
+}
+footer{
+    color: blue;
+    font-family: cursive;
+}
+footer span{
+    color: blueviolet;
+}
+footer span::after{
+    content: "😒";
+}

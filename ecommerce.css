@@ -1,0 +1,152 @@
+body{
+    padding: 0px 250px;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    margin-bottom:0px ;
+    border-bottom: 1px solid rgb(215, 213, 219);
+    height: 50px;
+    width: 1000px;
+    /* border: 1px solid; */
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    img{
+        height: 25px;
+        width: 120px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(171,170,174);
+        font-weight: 500;
+    }
+}
+.logo{
+    display: flex;
+    align-items: start;
+    /* border: 1px solid; */
+    height: 70px;
+    margin-top: 0px;
+    align-self: center;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+#cart{
+    height: 20px;
+    width: 20px;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 40px 0px;
+    width: 960px;
+
+}
+.left img{
+    width: 80px;
+    height: 80x;
+    border-radius: 8px;
+    margin: 13px 6px 0px;
+    
+}
+#img1{
+    width:385px;
+    border-radius: 13px;
+    height: 380px;
+
+}
+#img2{
+    border: 3px solid  rgb(255,125,27);
+    /* background:linear-gradient(rgba(3,3,3,0.5), rgba(3,3,3,0.4)); */
+    filter: blur(1px) contrast(1.2) brightness(0.7);
+}
+.right{
+    /* border: 1px solid; */
+    margin: 70px 60px 100px 100px;
+    width: 410px;
+    p{
+        line-height: 25px;
+        color: rgb(171,170,174);
+    }
+}
+h6{
+    color: rgb(171,170,174);
+    font-weight: 700;
+}
+h1{
+    color: rgb(33,34,40);
+}
+h3{
+    display: inline;
+    margin-bottom: 0px;
+}
+.d50{
+    width: 50px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.d50+p{
+    position: relative;
+    bottom: 10px;
+    font-weight: 600;
+    /* border: 1px solid; */
+    margin-bottom:0px ;
+
+}
+.plus{
+    border: none;
+    height: 35px;
+    width: 140px;
+    border-radius: 7px;
+    margin: 0px 10px 30px;
+    display: inline;
+    font-weight: 700;
+    img{
+        margin: 0px 11px;
+    }
+}
+.add{
+    border: none;
+    width: 230px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(255,125,27);
+    padding-top: 0px;
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+
+    img{
+        width: 10px;
+        height: 15px;
+        margin-top: 19px;
+        margin-right: 10px;
+    }
+}
+span{
+    color: hotpink;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+}
+span::after{
+    content: "😊✨";
+}

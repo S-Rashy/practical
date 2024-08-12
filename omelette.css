@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(31, 53%, 90%) ;
+}
+.general{
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(83, 74, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: black;
+}
+img{
+    width: 600px;
+    border-radius: 10px;
+}
+#prep{
+    background-color: hwb(322 97% 0%);
+    line-height: 30px;
+    border-radius: 9px;
+}
+p{
+    line-height: 30px;
+}
+h2{
+    color: hsl(9, 34%, 39%);
+}
+h3{
+    color: hsl(330, 66%, 32%);
+}
+#prep li::marker{ 
+    color:  hsl(330, 66%, 32%);
+}
+#Ingredients li::marker{
+    color: hsl(9, 34%, 39%);
+}
+#Ingredients{
+    border-bottom: 1px solid;
+    line-height: 30px;
+
+}
+li{
+    padding: 0 15px;
+}
+#Instructions{
+    border-bottom: 1px solid;
+    line-height: 30px;
+}
+#Nutrition{
+    line-height: 30px;
+
+}
+#Nutrition div{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+#Nutrition li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.value{
+    font-weight: 700;
+    color: hsl(9, 34%, 39%);
+
+}
+span::after{
+    content: "✨😊";
+}
+
